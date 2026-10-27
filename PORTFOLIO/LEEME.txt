@@ -1,0 +1,18 @@
+PORTAFOLIO DE EMILY - VERSIÓN PARA PUBLICAR
+
+Esta carpeta es la versión optimizada y bloqueada de "Portafolio.html":
+- index.html pesa 121 KB (antes 29 MB). Las imágenes y los modelos 3D están en la carpeta "assets".
+- Los modelos 3D (.fbx) solo se descargan cuando alguien pulsa "Ver modelo 3D".
+- No se puede editar: agregar #editar al link ya no abre el editor.
+
+SUBIRLA A GITHUB
+1. Crea un repositorio público y entra a "uploading an existing file".
+2. Arrastra TODO lo que hay dentro de esta carpeta (index.html y la carpeta assets).
+3. Pulsa "Commit changes".
+4. En Settings > Pages elige la rama "main" y la carpeta "/ (root)" y guarda.
+
+IMPORTANTE
+- Ábrela desde internet (o con un servidor local). Con doble clic en index.html
+  la página se ve, pero el visor 3D no puede leer los modelos .fbx.
+- Para hacer cambios, sigue usando "Portafolio editable.html" y luego vuelve a
+  generar esta versión optimizada.
