@@ -1,18 +1,86 @@
-PORTAFOLIO DE EMILY - VERSIÓN PARA PUBLICAR
+PORTAFOLIO DE EMILY CÁRDENAS - GUÍA PARA PUBLICARLO EN GITHUB
+================================================================
 
-Esta carpeta es la versión optimizada y bloqueada de "Portafolio.html":
-- index.html pesa 121 KB (antes 29 MB). Las imágenes y los modelos 3D están en la carpeta "assets".
-- Los modelos 3D (.fbx) solo se descargan cuando alguien pulsa "Ver modelo 3D".
-- No se puede editar: agregar #editar al link ya no abre el editor.
+QUÉ HAY EN ESTA CARPETA
+-----------------------
+index.html   La página completa. Debe llamarse exactamente así, en minúsculas.
+assets/      Todas las imágenes, íconos y modelos 3D que usa la página.
+README.md    La descripción que GitHub muestra en la portada del repositorio.
+LEEME.txt    Este archivo.
 
-SUBIRLA A GITHUB
-1. Crea un repositorio público y entra a "uploading an existing file".
-2. Arrastra TODO lo que hay dentro de esta carpeta (index.html y la carpeta assets).
-3. Pulsa "Commit changes".
-4. En Settings > Pages elige la rama "main" y la carpeta "/ (root)" y guarda.
+La página necesita que index.html y la carpeta assets estén juntas, en el
+mismo nivel. Si falta assets, la página se verá sin imágenes.
 
-IMPORTANTE
-- Ábrela desde internet (o con un servidor local). Con doble clic en index.html
-  la página se ve, pero el visor 3D no puede leer los modelos .fbx.
-- Para hacer cambios, sigue usando "Portafolio editable.html" y luego vuelve a
-  generar esta versión optimizada.
+
+PASO 1. CREAR EL REPOSITORIO
+----------------------------
+1. Entra a github.com e inicia sesión (o crea una cuenta gratis).
+2. Pulsa el botón verde "New" (o el "+" arriba a la derecha > New repository).
+3. Ponle un nombre, por ejemplo: portafolio
+   (si lo llamas TU-USUARIO.github.io, el enlace final será más corto:
+   https://TU-USUARIO.github.io/)
+4. Márcalo como "Public" (público). No marques ninguna casilla más.
+5. Pulsa "Create repository".
+
+
+PASO 2. SUBIR LOS ARCHIVOS
+--------------------------
+1. Descomprime el .zip en tu computador.
+2. En el repositorio nuevo, pulsa "uploading an existing file"
+   (o Add file > Upload files).
+3. Arrastra DENTRO de la ventana el contenido de la carpeta:
+   index.html, la carpeta assets, README.md y LEEME.txt.
+   (arrastra su contenido, no el .zip ni la carpeta que los contiene).
+4. Espera a que termine de subir. Si assets no se sube completa, repite
+   el paso con la carpeta assets sola.
+5. Abajo pulsa "Commit changes".
+
+Nota: desde el navegador, GitHub acepta archivos de hasta 25 MB y unos 100
+archivos por subida. El archivo más pesado de esta carpeta es un modelo 3D
+de unos 10 MB, así que entra sin problema.
+
+
+PASO 3. ACTIVAR LA PÁGINA PÚBLICA (GITHUB PAGES)
+------------------------------------------------
+1. En el repositorio, entra a "Settings" (Configuración).
+2. En el menú de la izquierda, pulsa "Pages".
+3. En "Build and deployment", en Source elige "Deploy from a branch".
+4. En Branch elige "main" y la carpeta "/ (root)". Pulsa "Save".
+5. Espera 1 o 2 minutos y recarga la misma pantalla: aparecerá el enlace
+   de tu página, con esta forma:
+   https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/
+6. Ese enlace es el que puedes compartir. Cuando lo tengas, escríbelo
+   también en README.md (donde dice TU-USUARIO).
+
+
+SI ALGO NO SE VE BIEN
+---------------------
+- Página en blanco o error 404: revisa que index.html esté en la raíz del
+  repositorio (no dentro de otra carpeta) y que Pages esté en "main" y "/ (root)".
+- Se ve el texto pero no las imágenes: revisa que la carpeta assets se haya
+  subido completa y que no le hayas cambiado el nombre. GitHub distingue
+  mayúsculas de minúsculas: "assets" no es lo mismo que "Assets".
+- El visor 3D no abre: necesita conexión a internet y funciona desde el
+  enlace de GitHub Pages. Abriendo index.html con doble clic en tu
+  computador las imágenes se ven, pero el visor 3D no carga.
+- Después de subir cambios, la página puede tardar uno o dos minutos en
+  actualizarse. Prueba recargando con Ctrl + F5.
+
+
+CÓMO ACTUALIZAR LA PÁGINA MÁS ADELANTE
+--------------------------------------
+- Cambios pequeños de texto: en GitHub abre index.html, pulsa el lápiz
+  (Edit), cambia el texto y pulsa "Commit changes".
+- Cambios con el editor visual: usa tu archivo
+  Emily_Cardenas_Portafolio_editable.html (el que tiene la barra de
+  edición). Ese archivo tiene todo incluido en uno solo, por lo que NO sirve
+  para subirlo directamente. Cuando termines de editar, vuelve a
+  convertirlo en esta estructura (index.html + assets) y sube los archivos
+  nuevos, reemplazando los anteriores.
+- Para cambiar una imagen sin tocar nada más, reemplaza el archivo dentro de
+  assets/img con uno nuevo que tenga EXACTAMENTE el mismo nombre.
+
+
+CONTACTO DE LA PÁGINA
+---------------------
+emily.cardenas.art@gmail.com
