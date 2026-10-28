@@ -1,6 +1,6 @@
 # Portafolio · Emily Cárdenas
 
-Portafolio web de **Emily Cárdenas**, aprendiz de Animación 3D en el SENA. Reúne sus proyectos de modelado y escenarios 3D (Blender, Unreal Engine, Twinmotion), con galería de imágenes, visor 3D interactivo y contacto por correo.
+Portafolio web de **Emily Cárdenas**, aprendiz de Animación 3D. Reúne sus proyectos de modelado y escenarios 3D (Blender, Unreal Engine, Twinmotion), con galería de imágenes, visor 3D interactivo y contacto por correo.
 
 🔗 **Ver la página:** `https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/`
 *(cambia TU-USUARIO y NOMBRE-DEL-REPOSITORIO por los tuyos, una vez activado GitHub Pages)*
